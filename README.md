@@ -28,10 +28,12 @@ A deep learning-powered web application for early detection of skin cancer lesio
 ### Setup
 # Clone repository
 git clone https://github.com/omkarnarveer/Skin-Cancer-Detection-HAM10000.git
+
 cd Skin-Cancer-Detection-HAM10000
 
 # Create virtual environment
 python -m venv venv
+
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
 # Install dependencies
