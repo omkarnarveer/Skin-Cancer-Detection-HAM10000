@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white">
+                <h2 class="text-center mb-0">Skin Disease Analysis</h2>
+            </div>
+            <div class="card-body">
+                <p class="lead text-center mb-4">
+                    Upload a dermatoscopic image for AI-powered analysis
+                </p>
+                
+                <form method="POST" enctype="multipart/form-data" class="dropzone" id="uploadForm" action="/predict">
+                    <div class="mb-4">
+                        <input type="file" class="form-control" name="file" accept="image/*" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg w-100">
+                        Analyze Image
+                    </button>
+                </form>
+                
+                <div class="mt-4 text-muted small">
+                    <p class="mb-0">Supported formats: JPG, PNG, JPEG</p>
+                    <p>Maximum file size: 5MB</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,17 @@
+numpy==1.20.3  # Specific version compatible with pandas 1.3.5
+pandas==1.3.5
+tensorflow==2.10.1
+scikit-learn==1.0.2
+opencv-python-headless==4.5.5.64
+flask==2.1.0
+numpy==1.23.5
+pandas==1.3.5
+scikit-learn==1.0.2
+matplotlib==3.5.1
+pillow==9.0.1
+gunicorn==20.1.0
+python-dotenv==0.19.2
+Werkzeug==2.0.3
+jax==0.4.13
+jaxlib==0.4.13
+ml_dtypes>=0.3.1
